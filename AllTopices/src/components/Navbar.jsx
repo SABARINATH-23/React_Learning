@@ -7,7 +7,7 @@ const Navbar= ()=>{
                 <NavLink to={"/props"}><li>Props</li></NavLink>
                 <NavLink to={"/Conditional"}><li>Conditional</li></NavLink>
                 <NavLink to={"/list"}><li>List and Key</li></NavLink>
-                <li>Form</li>
+                <NavLink to={"/form"}><li>Form</li></NavLink>
                 <li>useState</li>
 
            </div>

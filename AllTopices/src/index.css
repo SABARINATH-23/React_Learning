@@ -8,12 +8,12 @@
 .nav
 {
  height: 100px;
- background-color: red;
+ background-color: #ADB2D4;
  display: flex;
  font-size: 25px;
  align-items: center;
  justify-content: space-evenly;
- gap: 30px;
+ gap: 20px;
  padding: 10px;
 }
 .nav > a
@@ -37,7 +37,6 @@
   align-items: center;
   justify-content: center;
   gap: 50px;
-  background-color: blue;
 }
 .productsData
 {
@@ -45,9 +44,17 @@
   background-color: white;
   height: 300px;
   padding: 10px;
-  width: 300px;
+  width: 350px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 4px rgba(0,0,0,0.6);
+}
+
+.productsData > img
+{
+  width: 150px;
+  margin-bottom: 20px;
 }

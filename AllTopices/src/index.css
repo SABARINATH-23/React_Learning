@@ -1,0 +1,53 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav
+{
+ height: 100px;
+ background-color: red;
+ display: flex;
+ font-size: 25px;
+ align-items: center;
+ justify-content: space-evenly;
+ gap: 30px;
+ padding: 10px;
+}
+.nav > a
+{
+  text-decoration: none;  
+  
+}
+.nav > a > li
+{
+  color: black;
+  list-style: none;
+}
+
+/* Porps Style */
+
+.cards
+{
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  background-color: blue;
+}
+.productsData
+{
+  margin-top: 10px;
+  background-color: white;
+  height: 300px;
+  padding: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}

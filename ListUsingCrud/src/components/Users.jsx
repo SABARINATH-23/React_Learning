@@ -19,5 +19,14 @@ const Users = [
         Email:"Tom@gmail.com",
         MobileNumber:"1234568",
         Age:22
+    },
+    {
+        id:"4",
+        Name:"snowy",
+        Email:"snowy@gmail.com",
+        MobileNumber:"12345678",
+        Age:21
     }
 ];
+
+export default Users;

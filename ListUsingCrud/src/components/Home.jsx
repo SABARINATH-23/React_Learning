@@ -4,7 +4,6 @@ import Users from"./Users"
 import { NavLink } from "react-router-dom";
 
 
-
 const Home =()=>{
 
   function setId(id,Name,Email,MobileNumber,Age)
@@ -54,7 +53,9 @@ const Home =()=>{
 
             </tbody>
         </Table>
-      <NavLink className="d-grid gap-2" to={"/create"}>Create</NavLink>
+      <NavLink className="d-grid gap-2" to={"/create"}>
+                    <button>Create</button>
+      </NavLink>
     </div>
     )
 
